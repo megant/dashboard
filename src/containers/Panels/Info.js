@@ -16,7 +16,6 @@ import { SplineSeries } from "@devexpress/dx-react-chart";
 import { EventTracker } from '@devexpress/dx-react-chart';
 import { ValueScale, Animation } from '@devexpress/dx-react-chart';
 import LineChart from '../Components/LineChart';
-import { render } from "react-dom";
 
 const useStyles = makeStyles((theme) => ({
 

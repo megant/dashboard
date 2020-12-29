@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,lazy } from "react";
 import { makeStyles, useTheme } from '@material-ui/core';
 import AdminTable from '../Components/AdminTable';
 import Paper from '@material-ui/core/Paper';
@@ -52,8 +52,6 @@ console.log(location.pathname)
 
     return (
 
-props.display ?
-
     <React.Fragment>
         <h2 style={{color:"white"}}>ADMINS MENU</h2>
         <Grid container justify="space-around">
@@ -80,7 +78,6 @@ props.display ?
 
          </React.Fragment>
 
-         : null
 
     );
 };
