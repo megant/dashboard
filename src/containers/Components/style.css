@@ -1,0 +1,62 @@
+/* li:hover{
+    background:#1db46f;
+    border-radius:25px 25px 0px 25px;
+} */
+
+a.active{
+    background:#1db46f;
+    border-radius:25px 25px 0px 25px;
+}
+
+p{
+    margin:0;
+}
+
+.MuiTableRow-root.MuiTableRow-hover:hover{
+    background-color: #1db47075 !important;
+}
+
+.MuiTableCell-stickyHeader{
+    background-color: #1db46f !important;
+}
+
+.MuiDataGrid-root{
+  border-radius: 23px !important;
+}
+
+.MuiToolbar-root
+{
+  background-color: #106e4449 !important;
+}
+
+.MuiTable-root{
+  background-color: black !important;
+}
+
+
+.Component-horizontalScrollContainer-54::-webkit-scrollbar{
+  width: 30px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey !important; 
+    border-radius: 10px !important;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1db46f !important; 
+    border:1px solid #1db46f !important;
+    border-radius: 10px !important;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1db46f !important; 
+  }
